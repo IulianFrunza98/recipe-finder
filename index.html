@@ -5,10 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Recipe App</title>
 </head>
 
 <body>
+    <div class="app-container">
+        <header>
+            <h1>Recipe App</h1>
+            <form id="form">
+                <label class="visually-hidden" for="search-input">Search for a recipe</label>
+                <div class="input-container">
+                    <input type="text" id="search-input" name="search-input" placeholder="Search recipe" required
+                        aria-label="Search for recipes">
+                    <button type="submit" id="search-btn" aria-label="Search"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </form>
+        </header>
+        <main>
+            <div id="recipe-list" class="recipe-list">
+            </div>
+        </main>
+    </div>
 
     <script src="js/main.js" type="module"></script>
 </body>
