@@ -18,8 +18,7 @@ This app allows users to search for recipes using the [DummyJSON Recipes API](ht
 
 ## 🖼️ Screenshot
 
-![Recipe App Screenshot]
-(assets/recipe-app-preview.png)
+![Recipe App Screenshot](assets/recipe-app-preview.png)
 (assets/recipe-app-preview2.png)
 
 ---
